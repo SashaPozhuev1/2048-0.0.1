@@ -29,11 +29,11 @@ int main()
 		    matrix[ i ][ j ] = 2;
 		}
 
-		cout << matrix[ i ][ j ] << "    ";
+		cout << matrix[ i ][ j ] << "	";
        	    }
 	    else {
 		matrix[ i ][ j ] = 0;
-		cout << "*   ";
+		cout << "*	";
 	    }
 	}		
         cout << "\n";
